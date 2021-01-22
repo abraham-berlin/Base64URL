@@ -10,3 +10,7 @@ main.o: main.c
 
 base64.o: base64.c base64.h
 	${CC} ${CFLAGS} base64.c
+
+clean:
+	rm -f *.o
+	rm -f base64URL
