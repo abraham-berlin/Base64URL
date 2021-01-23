@@ -30,9 +30,9 @@ base64URL <base64>
 2. Create a new Quick Action
 3. Change workflow to text
 4. Search "Run Shell Script" and add it
-5. Paste the following changing <DIR> to the directory  you build you exicutable
+5. Paste the following changing DIR to the directory  you build you exicutable
 ```
 #! /bin/sh
-cd <DIR>
+cd DIR
 ./base64URL "$1"
 ```
